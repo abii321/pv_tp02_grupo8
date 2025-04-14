@@ -2,3 +2,4 @@
 // Calcular el área y el perímetro del cuadrado y mostrar los resultados por consola. 
 // Area = 2 * lado 
 // Perímetro = lado + lado + lado + lado
+jkohhhhh
