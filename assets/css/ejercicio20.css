@@ -1,0 +1,38 @@
+/*Todo*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1{
+    padding: 10px 20px;
+    color: #0e6ba8;
+}
+
+.formulario{
+    display: flex;
+    padding-left: 30px;
+    flex-direction: row;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+form{
+    background-color:#adb5bd;
+    border-radius: 10px;
+    width: 200px;
+}
+
+label{
+    display: block;
+}
+
+select{
+    padding: 7px;
+}
+
+.campo{
+    padding: 20px;
+}
