@@ -1,6 +1,6 @@
-const sumarRango = (inicio, fin) => {
+let sumarRango = (inicio, fin) => { 
     if (inicio > fin) {
-    return "Error: el número inicial debe ser menor o igual que el final.";
+        return "Error: el número inicial debe ser menor o igual que el final.";
     }
     let suma = 0;
     for (let i = inicio; i <= fin; i++) {
@@ -9,8 +9,8 @@ const sumarRango = (inicio, fin) => {
     return suma;
 };
 
-const numeroInicial = parseInt(prompt("Ingrese el número inicial del rango:"));
-const numeroFinal = parseInt(prompt("Ingrese el número final del rango:"));
+let numeroInicial = parseInt(prompt("Ingrese el número inicial del rango:"));
+let numeroFinal = parseInt(prompt("Ingrese el número final del rango:"));
 
-const resultado = sumarRango(numeroInicial, numeroFinal);
+let resultado = sumarRango(numeroInicial, numeroFinal);
 console.log(`La suma del rango es: ${resultado}`);
