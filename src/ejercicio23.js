@@ -1,12 +1,14 @@
+export const actualizarSeleccion= (valor) => {
+    const result = document.getElementById('result');
+    result.innerHTML = `Has seleccionado: <strong>${valor}</strong>`;
+    console.log(`Lenguaje Seleccionado: ${valor}`);
+};
 document.addEventListener('DOMContentLoaded', () => {
     const radios = document.querySelectorAll('input[name="language"]');
-    const result = document.getElementById('result');
-  
     radios.forEach(radio => {
       radio.addEventListener('change', (event) => {
-        const selectedValue = event.target.value;
-        result.innerHTML = `Has seleccionado: <strong>${selectedValue}</strong>`;
-        console.log(`Lenguaje seleccionado: ${selectedValue}`);
+        const seleccionado= event.target.value;
+        actualizarSeleccion(seleccionado);
       });
     });
   });
