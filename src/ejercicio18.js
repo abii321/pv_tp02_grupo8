@@ -1,7 +1,4 @@
-export const CambiarTexto= () => {
-const parrafo = document.getElementById('miParrafo');
-parrafo.textContent='¡El Texto ha cambiado!';
-}; 
+import { CambiarTexto } from './ejercicio18-funciones.js';
 const boton = document.getElementById('miBoton');
 
 boton.addEventListener('click', CambiarTexto);

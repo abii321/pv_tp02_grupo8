@@ -1,8 +1,4 @@
-export const actualizarSeleccion= (valor) => {
-    const result = document.getElementById('result');
-    result.innerHTML = `Has seleccionado: <strong>${valor}</strong>`;
-    console.log(`Lenguaje Seleccionado: ${valor}`);
-};
+import { actualizarSeleccion } from './ejercicio23-funciones.js';
 document.addEventListener('DOMContentLoaded', () => {
     const radios = document.querySelectorAll('input[name="language"]');
     radios.forEach(radio => {
