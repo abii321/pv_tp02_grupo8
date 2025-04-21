@@ -1,3 +1,4 @@
+
 const retornarMes = (numero) => {
     const meses = [
         "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio",
@@ -7,7 +8,7 @@ const retornarMes = (numero) => {
     return (numero >= 1 && numero <= 12) ? meses[numero - 1] : "No corresponde a un mes del año.";
 };
 
-const numeroMes = parseInt(prompt("Ingrese un número del 1 al 12:"));
-const resultado = retornarMes(numeroMes);
+let numeroMes = parseInt(prompt("Ingrese un número del 1 al 12:"));
+let resultado = retornarMes(numeroMes);
 
 console.log("Resultado: " + resultado);
